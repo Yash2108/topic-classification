@@ -1,9 +1,6 @@
 # :label: Topic Classification of UN Speeches
 
 # :memo: Description
-
-
-
 This project implements a semi-supervised approach to classify UN speeches. 
 
 We have implemented this approach in 2 ways:
@@ -52,12 +49,8 @@ A sample of the dataset is saved as csv files in this repo. The original is publ
 1. Download the contents from the above GDrive link
 2. Put the csv files in the `data` folder
 3. Put everything else in the `weights` folder
-4. For inference, execute either:
-   1. `inference1.py` to use the saved weights from the first approach
-    
-        OR
-
-   2. `inference2.py` to use the saved weights from the second approach
+4. For inference, execute `inference2.py` to use the saved weights from the second approach. The program will ask for an input sentence and will output the predicted class.
+5. 
 # :warning: Requirements
 
 - pandas==2.2.1
