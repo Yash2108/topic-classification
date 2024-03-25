@@ -50,7 +50,7 @@ A sample of the dataset is saved as csv files in this repo. The original is publ
 2. Put the csv files in the `data` folder
 3. Put everything else in the `weights` folder
 4. For inference, execute `inference2.py` to use the saved weights from the second approach. The program will ask for an input sentence and will output the predicted class.
-5. 
+   
 # :warning: Requirements
 
 - pandas==2.2.1
