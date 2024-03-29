@@ -45,12 +45,13 @@ A sample of the dataset is saved as csv files in this repo. The original is publ
    
       OR
    2. `approach2.py` to train the model using the second approach
+   
 # :rocket: Inference Demo
 1. Download the contents from the above GDrive link
 2. Put the csv files in the `data` folder
 3. Put everything else in the `weights` folder
 4. For inference, execute `inference2.py` to use the saved weights from the second approach. The program will ask for an input sentence and will output the predicted class.
-5. 
+   
 # :warning: Requirements
 
 - pandas==2.2.1
@@ -62,7 +63,7 @@ A sample of the dataset is saved as csv files in this repo. The original is publ
 - gensim==4.3.2
 - node2vec==0.4.6
   
-# :bust_in_silhouette:Contributors
+# :bust_in_silhouette: Contributors
 
 - Yash Jain
 - Abhinav Shukla
